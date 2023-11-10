@@ -1,0 +1,22 @@
+{
+  "name": "@adeora/router-devtools",
+  "version": "1.0.0",
+  "description": "New TanStack Router Devtools",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "author": "Aryan Deora",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.7",
+    "date-fns": "^2.29.1"
+  }
+}
